@@ -1,6 +1,6 @@
 *, html {
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -49,76 +49,41 @@ body {
     background-color: #0E0E0E;
 }
 
-div.rey {
+div.downloads {
     background-color: #232323;
     margin: 0px;
-    display: grid;
+    display: flex;
 }
-h1.rey {
+h1.downloads {
     color: #FFF;
     font-size: 2.5em;
     font-family: 'Open Sans', sans-serif;
-    grid-column: 1;
-    grid-row: 1;
     padding: 1em;
-    padding-bottom: 1em;
-    border-right: 10px solid #FFF;
+    padding-bottom: 4em;
     text-align: center;
-    width: 2em;
     
 }
-p.rey {
+h2.downloads {
+    color: #FFF;
+    font-size: 2.0em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 1em;
+}
+
+p.downloads {
     color: #FFF;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
-    grid-column: 3;
-    grid-row: 1;
-    padding: 1em;
-    border-left: 50px solid #FFF;
-    padding-bottom: 4em;
+    padding: 5px 1em;
 }
-p.github {
-    color: #FFF;
-    font-size: 1.5em;
+div.downloads-list {
+    border-left: 40px solid #FFF;
+}
+div.download {
+    border-left: 10px solid #FFF;
+    margin: 10px;
+}
+a.downloads {
+    color: #CCF;
     font-family: 'Open Sans', sans-serif;
-    grid-column: 2;
-    grid-row: 1;
-    width: 0em;
-    height: 0em;
-}
-img.gitimage {
-    width: 40px;
-    height: 40px;
-    padding-top: 10px;
-}
-
-
-
-div.grey {
-    background-color: #1F1C23;
-    margin: 0px;
-    display: grid;
-}
-h1.grey {
-    color: #FFF;
-    font-size: 2.5em;
-    font-family: 'Open Sans', sans-serif;
-    grid-column: 1;
-    grid-row: 1;
-    padding: 1em;
-    padding-bottom: 4em;
-    border-right: 10px solid #FFF;
-    text-align: center;
-    width: 2em;
-    
-}
-p.grey {
-    color: #FFF;
-    font-size: 1.5em;
-    font-family: 'Open Sans', sans-serif;
-    grid-column: 3;
-    grid-row: 1;
-    padding: 1em;
-    border-left: 50px solid #FFF;
-    padding-bottom: 4em;
 }
