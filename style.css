@@ -1,0 +1,35 @@
+div.grey {
+    background-color: #232323;
+    margin: 0px;
+    display: grid;
+}
+h1.grey {
+    color: #FFF;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 1em;
+    padding-bottom: 1em;
+    border-right: 10px solid #FFF;
+    text-align: center;
+    width: 3em;
+    
+}
+p.grey {
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    grid-column: 3;
+    grid-row: 1;
+    padding: 1em;
+    border-left: 50px solid #FFF;
+    padding-bottom: 4em;
+}
+
+a.link {
+    color: #CCF;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+}
