@@ -1,0 +1,43 @@
+div.downloads {
+    background-color: #232323;
+    margin: 0px;
+    display: flex;
+}
+h1.downloads {
+    color: #FFF;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.5em;
+    padding-bottom: 4em;
+    text-align: center;
+    margin: 0 0;
+    
+}
+h2.downloads {
+    color: #FFF;
+    font-size: 2.0em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 1em;
+}
+
+p.downloads {
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 1em;
+}
+div.downloads-list {
+    border-left: 40px solid #FFF;
+    margin: 0 0;
+}
+div.download {
+    border-left: 10px solid #FFF;
+    margin: 10px;
+}
+a.downloads {
+    color: #CCF;
+    font-family: 'Open Sans', sans-serif;
+}
+.nopad {
+    padding: 0, 0, 0, 0;
+}
