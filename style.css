@@ -26,10 +26,3 @@ p.grey {
     border-left: 50px solid #FFF;
     padding-bottom: 4em;
 }
-
-a.link {
-    color: #CCF;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    border-bottom: 3px solid #fff;
-}
